@@ -101,3 +101,44 @@ Plt built in methods:Here are some commonly used built-in functions of plt (Matp
     plt.show()
 
 These functions help customize and create different types of plots to visualize data effectively in Python.
+
+
+n Python, the .shape attribute is primarily used with NumPy arrays to get the dimensions (shape) of the array. It returns a tuple indicating the size of the array along each dimension.
+Example:
+
+ ```python
+
+import numpy as np
+
+# Creating a 2D NumPy array (matrix)
+arr = np.array([[1, 2, 3], [4, 5, 6]])
+
+# Getting the shape of the array
+print(arr.shape)
+
+Output:
+(2, 3)
+
+
+Explanation:
+
+    The array has 2 rows and 3 columns, so the shape is (2, 3).
+
+General Use of .shape:
+
+    .shape is useful when working with multi-dimensional arrays, matrices, or tensors, allowing you to inspect the structure of the data.
+    For example, in machine learning, .shape is often used to check the dimensions of input data, weights, or output data.
+
+Usage in Machine Learning:
+
+In machine learning, .shape is frequently used for:
+
+    Input data: Checking the number of samples and features.
+    Weight matrices: Ensuring the dimensions of matrices are compatible for operations like matrix multiplication.
+    Tensor operations: When working with deep learning frameworks like TensorFlow or PyTorch, .shape is used to handle high-dimensional data.
+
+
+
+
+
+
