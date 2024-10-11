@@ -106,7 +106,7 @@ These functions help customize and create different types of plots to visualize 
 n Python, the .shape attribute is primarily used with NumPy arrays to get the dimensions (shape) of the array. It returns a tuple indicating the size of the array along each dimension.
 Example:
 
- ```python
+  ```python
 
 import numpy as np
 
@@ -118,6 +118,22 @@ print(arr.shape)
 
 Output:
 (2, 3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ```
 
 
 Explanation:
