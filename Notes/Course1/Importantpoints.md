@@ -4,7 +4,9 @@ What is np?
 In machine learning, np refers to NumPy, a Python library used for efficient numerical computations. It plays a key role in handling large datasets by providing multi-dimensional arrays (np.array) and offering fast mathematical operations. NumPy is commonly used for linear algebra, matrix manipulations, random number generation, and statistical calculations—crucial for training models and performing optimizations.
 
 What is plt?
-n Python, plt refers to Matplotlib's pyplot module, which is commonly imported as plt. It is a powerful tool for creating a wide variety of plots and visualizations. pyplot provides functions to generate graphs, such as line charts, histograms, scatter plots, bar charts, and more, making it essential for data visualization in machine learning and data science.
+
+
+In Python, plt refers to Matplotlib's pyplot module, which is commonly imported as plt. It is a powerful tool for creating a wide variety of plots and visualizations. pyplot provides functions to generate graphs, such as line charts, histograms, scatter plots, bar charts, and more, making it essential for data visualization in machine learning and data science.
 
 Plt built in methods:Here are some commonly used built-in functions of plt (Matplotlib's pyplot module):
 1. plt.plot()
