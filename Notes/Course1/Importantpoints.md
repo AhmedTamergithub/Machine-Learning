@@ -14,7 +14,7 @@ Plt built in methods:Here are some commonly used built-in functions of plt (Matp
     Creates a line plot.
     Example:
 
-    python
+    ```python
 
     plt.plot([1, 2, 3], [4, 5, 6])
 
@@ -23,7 +23,7 @@ Plt built in methods:Here are some commonly used built-in functions of plt (Matp
     Creates a scatter plot.
     Example:
 
-    python
+     ```python
 
     plt.scatter([1, 2, 3], [4, 5, 6])
 
@@ -32,7 +32,7 @@ Plt built in methods:Here are some commonly used built-in functions of plt (Matp
     Creates a bar chart.
     Example:
 
-    python
+    ```python
 
     plt.bar([1, 2, 3], [4, 5, 6])
 
@@ -41,7 +41,7 @@ Plt built in methods:Here are some commonly used built-in functions of plt (Matp
     Creates a histogram.
     Example:
 
-    python
+     ```python
 
     plt.hist([1, 2, 2, 3, 3, 3, 4])
 
@@ -50,7 +50,7 @@ Plt built in methods:Here are some commonly used built-in functions of plt (Matp
     Creates a pie chart.
     Example:
 
-    python
+    ```python
 
     plt.pie([10, 20, 30], labels=['A', 'B', 'C'])
 
@@ -59,7 +59,7 @@ Plt built in methods:Here are some commonly used built-in functions of plt (Matp
     Set the labels for the x and y axes.
     Example:
 
-    python
+     ```python
 
     plt.xlabel('X-axis')
     plt.ylabel('Y-axis')
@@ -69,7 +69,7 @@ Plt built in methods:Here are some commonly used built-in functions of plt (Matp
     Adds a title to the plot.
     Example:
 
-    python
+     ```python
 
     plt.title('Sample Plot')
 
@@ -78,7 +78,7 @@ Plt built in methods:Here are some commonly used built-in functions of plt (Matp
     Displays a legend for the plot.
     Example:
 
-    python
+     ```python
 
     plt.legend(['Line 1'])
 
@@ -87,7 +87,7 @@ Plt built in methods:Here are some commonly used built-in functions of plt (Matp
     Adds a grid to the plot.
     Example:
 
-    python
+     ```python
 
     plt.grid(True)
 
@@ -96,7 +96,7 @@ Plt built in methods:Here are some commonly used built-in functions of plt (Matp
     Displays the plot.
     Example:
 
-    python
+     ```python
 
     plt.show()
 
