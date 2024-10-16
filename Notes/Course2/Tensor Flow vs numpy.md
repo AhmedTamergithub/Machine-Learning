@@ -1,5 +1,4 @@
 
-`
 The key differences between TensorFlow and NumPy are:
 
 Purpose:
@@ -21,4 +20,3 @@ TensorFlow: Primarily used for machine learning and deep learning tasks, especia
 In summary, NumPy is great for basic numerical computations, while TensorFlow is designed for more complex tasks, especially machine learning, 
 with support for GPU acceleration and optimized execution.
 
-`
