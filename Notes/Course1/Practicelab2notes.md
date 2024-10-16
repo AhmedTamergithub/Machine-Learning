@@ -8,7 +8,7 @@ copy Module: This line requires the copy module, which provides the deepcopy fun
 Copy code
 import copy
 deepcopy Function:
-
+```
 A deep copy creates a new object that is a copy of the original object, and it recursively copies all objects found within the original object.
 This is in contrast to a shallow copy, which only copies the outer object and references to the inner objects, meaning changes to the inner objects in the copy will affect the original.
 Why Use deepcopy?
@@ -34,9 +34,11 @@ modified_weights = modify_weights(weights)
 
 print("Original weights:", weights)       # Original remains unchanged
 print("Modified weights:", modified_weights)  # Changes are reflected here
+```
 Output:
-lua
+```lua
 Copy code
 Original weights: [[1, 2, 3], [4, 5, 6]]
 Modified weights: [[2, 2, 3], [4, 5, 6]]
+```
 In this example, the original weights array remains unchanged even after modifying w inside the modify_weights function, thanks to using deepcopy.
